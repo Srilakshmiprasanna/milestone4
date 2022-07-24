@@ -1,0 +1,61 @@
+<html>
+<head>
+</head>
+<center><body style=background-image:url('back.jpg');>
+<img src="logo1.jpg" alt="picture"><h1 style="color:cyan;">Online TCS EXAM</h1>
+<p style="font-size:20px; color:lime;">Registration of Students</p>
+<form action = "/action_page.php">
+<label for="name" style="color:moccasin;font-size:20px;"><b>Name:</b></label><br>
+  <input type="text" id="name" name="name" value=""><br>
+<p style="color:pink;">Please enter your name as appearing on your Passport or SSC Mark sheet. It is extremely important <br>to enter your name correctly. Please recheck the details entered to ensure there are no errors.</p>
+<label for="rNo"style="color:moccasin; font-size:20px;"><b>Roll No:</b></label><br>
+  <input type="text"  pattern="([A-Za-z]\d{2}-\d{4};)*" id="rNo" name="rNo" value=""><br>
+<h3 style="color:moccasin;">Parent Details</h3>
+ <label for="fname"style="color:moccasin;font-size:20px;"><b>Father name:</b></label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+ <label for="occu" style="color:moccasin;font-size:20px;"><b>Occupation:</b></label><br>
+  <input type="text" id="occu" name="occu" value=""><br>
+<label for="mname" style="color:moccasin;font-size:20px;"><b>Mother name:</b></label><br>
+  <input type="text" id="mname" name="mname" value=""><br>
+ <label for="occu" style="color:moccasin;font-size:20px;"><b>Occupation:</b></label><br>
+  <input type="text" id="occu" name="occu" value=""><br>
+<label for="aNo" style="color:moccasin;font-size:20px;"><b>Aadhar Number:</b></label><br>
+  <input type="number" id="aNo" name="aNo" value=""><br>
+<label for="qual" style="color:moccasin;font-size:20px;"><b>Qualification:</b></label><br>
+<select name="dropdown">
+<option value="select">SELECT</option>
+<option value="bachelor of architecture">BACHELOR OF ARCHITECTURE</option>
+<option value="bachelor of arts">BACHELOR OF ARTS</option>
+<option value="bachelor of business management">BACHELOR OF BUSINESS MANAGEMENT</option>
+<option value="bachelor of computer application">BACHELOR OF COMPUTER APPLICATION</option>
+<option value="bachelor of engineering">BACHELOR OF ENGINEERING</option>
+<option value="bachelor of law">BACHELOR OF LAW</option>
+<option value="bachelor of pharmacy">BACHELOR OF PHARMACY</option>
+<option value="bachelor of management science">BACHELOR OF MANAGEMENT SCIENCE</option>
+<option value="bachelor of science (B.sc Degree)">BACHELOR OF SCIENCE (B.sc DEGREE)</option>
+<option value="bachelor of science (B.sc Qualification)">BACHELOR OF SCIENCE (B.sc QUALIFICATION)</option>
+<option value="bachelor of technology">BACHELOR OF TECHNOLOGY</option>
+</select><br>
+
+<label for="coco" style="color:moccasin;font_size:20px;"><b>Courses Completed:</b></label><br>
+<select name="dropdown">
+<option value="select">SELECT</option>
+<option value="cse">CSE</option>
+<option value="ece">ECE</option>
+<option value="It">IT</option>
+<option value="civil">CIVIL</option>
+<option value="eee">EEE</option>
+</select><br>
+<label for="xth" style="color:moccasin;font-size:20px;"><b>Xth CGPA:</b></label><br>
+  <input type="number" id="xth" name="xth" value=""><br>
+<label for="xIIth" style="color:moccasin;font-size:20px;"><b>XIIth CGPA:</b></label><br>
+  <input type="number" id="xIIth" name="xIIth" value=""><br>
+<label for="upre" style="color:moccasin;font-size:20px;"><b>Upload Resume:</b></label><br>
+  <input type="file" id="upre" name="upre" value=""><br>
+<label for="uppo" style="color:moccasin;font-size:20px;"><b>Upload Photo:</b></label><br>
+  <input type="file" id="uppo" name="uppo" value=""><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</center>
+</html>
